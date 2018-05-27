@@ -1,0 +1,9 @@
+<!-- pages/login/login.wxml -->
+<view class='container'>
+  <text class='wel_txt'>欢迎进入因学平台</text>
+  <image src='/image/icon1.png' class='wel_img'></image>
+    <button  open-type='getUserInfo' bindgetuserinfo='getProfile' bindtap='turn_home' bindtap="login" class='getInfo_btn'>点击获取资料</button>   
+   <!-- <open-data type="userNickName"></open-data>  -->
+  <!-- <view wx:else>请升级微信版本</view> -->
+</view> 
+

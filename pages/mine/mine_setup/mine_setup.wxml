@@ -1,0 +1,5 @@
+<!--pages/mine/mine_setup/mine_setup.wxml-->
+<view>
+<button bindtap='clearCache'>清除缓存</button>
+<button>退出登录</button>
+</view>

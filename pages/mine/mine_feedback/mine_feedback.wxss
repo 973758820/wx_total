@@ -1,0 +1,35 @@
+/* pages/back.wxss */
+.yijian{
+  margin-top: 10px;
+}
+.sen{
+  background-color: lightblue;
+  margin-left: 10px
+}
+.enter{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+ border: 2px solid #d0d0d0;  
+  height: 200px
+}
+.n{
+  margin-top: 10px
+}
+.num{
+background-color: lightblue;
+margin-left: 10px
+}
+.enter2{
+  border: 2px solid #d0d0d0;  
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+.btn{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

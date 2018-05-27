@@ -1,0 +1,27 @@
+<!--pages/test/library/test_library.wxml-->
+<view class='header'>
+  <text class='test_name'>{{test_name}}</text>
+</view>
+
+<view class='container'>
+  <!-- 题目内容 -->
+  <view class='content'>
+    <textarea class='test_content'>{{test_content}}</textarea>
+  </view>
+  <!-- 回答界面 -->
+  <view class='answer'>
+    <!-- 题号 -->
+    <view class='OpNum'>
+      <text class='answer_OpNum'>{{}}/{{}}</text>
+    </view>
+    <!-- 选择按钮 -->
+    <view class='Op'>
+      <checkbox class='op' wx:for="{{op_item}}" value='{{op_item.value}}' checked='{{op_item.checked}}'>{{op_item.name}}</checkbox>
+    </view>
+     <!-- 提交 -->
+    <view class='Submit'>
+      <button class='answer_submit' bindtap='submit'>提交</button>
+    </view>
+
+  </view>
+</view>

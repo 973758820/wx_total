@@ -1,0 +1,28 @@
+<!--pages/mine/mine_favorate/mine_favorate.wxml-->
+<view>
+<text class='title1'>我的收藏</text>
+</view>
+
+<view class='area'>
+  <view class='left_area'>
+    <view class='left_title' bindtap=''>
+    <button class='zhishi'>zhishidian</button>
+      <text class='title2'>知识点</text>
+    </view>
+  </view>
+  <view class='left_area'>
+    <view class='left_title' bindtap=''>
+      <text class='title2'>题库</text>
+    </view>
+  </view>
+</view>
+
+<view>  
+  <button class='btn_op' wx:for="{{items_op}}" wx:key="name"  wx:for-item="i" bindtap='select' >test{{i.name}}</button> 
+</view>
+
+<view class='roll'>
+  <scroll-view scroll-y style="height: 500px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}" ></scroll-view>
+</view>    
+ 
+

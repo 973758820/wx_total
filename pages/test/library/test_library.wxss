@@ -1,0 +1,42 @@
+/* pages/test/library/test_library.wxss */
+.header{
+  margin: 20rpx;
+}
+.header .test_name{
+  font-size: 80rpx;
+}
+.container{
+
+}
+.container .content{
+
+}
+.test_content{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  border: 2px solid #d0d0d0;  
+  height: 300px；
+  /* height??? */
+  
+}
+
+.answer{
+  margin-top: 20rpx;
+  border-top: 2rpx solid #d0d0d0;
+}
+.answer .OpNum{
+
+}
+.answer .OpNum .answer_OpNum{
+
+}
+
+.answer .Submit{
+
+}
+.answer .Submit .answer_submit{
+  padding: center;
+  
+}
